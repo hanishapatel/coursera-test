@@ -1,2 +1,2 @@
 # coursera-test
-coursera test repository
+week2 test
