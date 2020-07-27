@@ -5,6 +5,100 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Hello Coursera</title>
 	<link rel="stylesheet" href="css/stylesheet.css">
+<style>
+	*{
+	box-sizing: border-box;
+	margin-left: 0;
+}
+h1{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.column,.column1,.column2{
+	float: left;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media (min-width: 992px){
+	.column,.column1,.column2{
+		width: 33.3%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.column,.column1{
+		width: 50%;
+	}
+	.column2{
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+	.column,.column1,.column2{
+		width: 100%;
+	}
+}
+
+.column h5{
+	background-color: pink;
+	border: 1px solid black;
+	padding: 5px;
+	box-sizing: content-box;
+	float: right;
+	font-size: 18px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.column p{
+	clear: right;
+	font-size: 19px;
+}
+
+.column1 h5{
+	background-color: red;
+	border: 1px solid black;
+	padding: 5px;
+	box-sizing: content-box;
+	float: right;
+	font-size: 18px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.column1 p{
+	clear: right;
+	font-size: 19px;
+}
+
+.column2 h5{
+	background-color: yellow;
+	border: 1px solid black;
+	padding: 5px;
+	box-sizing: content-box;
+	float: right;
+	font-size: 18px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.column2 p{
+	clear: right;
+	font-size: 19px;
+}
+
+
+
+	</style>
 </head>
 <body>
 	<h1>Our Menu</h1>
